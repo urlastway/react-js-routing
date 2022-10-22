@@ -1,12 +1,13 @@
 import { useParams } from "react-router-dom";
 
-
-function UserID(){
+function UserID(){    
     
     let {userName} = useParams();
 
     return (
-        <h1>User: {userName}</h1>
+        <div>
+            <h1>User: {userName}</h1>
+        </div>
     );
 }
 
